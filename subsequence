@@ -1,0 +1,10 @@
+def recurse(str,i):
+    if i > len(str):
+        return
+    else:
+        print(str[0:i])
+        i += 1
+        recurse(str,i)
+str = "string"
+i = 1
+recurse("string",i)
